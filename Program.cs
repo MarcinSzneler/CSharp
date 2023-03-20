@@ -29,13 +29,13 @@ namespace HelloWorld
             Console.WriteLine(firstName);
             Console.WriteLine(isWorking);
             Console.WriteLine(countTwo);
-            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);  //Min i Max wartości, które mogą pomieścic zmienne
+            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
             Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
             const float Pi = 3.14f;   //Definiowanie zmiennej STAŁEJ
 
                                              //Konwersja danych
             Console.WriteLine("________________Konwersja danych________________");
-            byte b = 1;   // Konwersja jest możliwa, bo byte to tylko 1bajt a int to 4 = brak utraty danych
+            byte b = 1;  
             int i = b;
             Console.WriteLine(i);
 
